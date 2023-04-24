@@ -8,13 +8,13 @@ export default function HomePage() {
   return (
         <>
           <MainLayout>
-            <h2 className="title">Home Page</h2>
+            <h2 className="title">Pricing Page</h2>
               <h1 className='title'>
-                ir a <Link href="/about">About</Link>
+                ir a <Link href="/">Home</Link>
               </h1>
               <p className='description'>
                 Get started by editing{' '}
-                <code className='code'>pages/index.js</code>
+                <code className='code'>pages/pricing/index.js</code>
               </p>
           </MainLayout>
         </>
