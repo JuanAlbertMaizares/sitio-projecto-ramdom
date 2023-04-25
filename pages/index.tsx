@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Navbar } from '@/components/Navbar'
 import { MainLayout } from '@/components/layouts/MainLayout'
 
-export default function HomePage() {
+export default function HomePage( { children } ) {
 
   return (
         <>
