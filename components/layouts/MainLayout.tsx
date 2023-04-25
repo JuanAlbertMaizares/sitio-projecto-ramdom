@@ -1,6 +1,6 @@
 import styles from './MainLayout.module.css'
 import Link from 'next/link'
-import { Navbar } from '@/components/Navbar'
+import { Navbar } from '../Navbar'
 import Head from 'next/head'
 import { FC, PropsWithChildren } from 'react'
 

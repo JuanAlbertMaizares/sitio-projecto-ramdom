@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar";
-import { MainLayout } from "@/components/layouts/MainLayout";
+import { Navbar } from "../../components/Navbar";
+import { MainLayout } from "../../components/layouts/MainLayout";
 import Link from "next/link";
 
 export default function Contact() {

@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { Navbar } from '@/components/Navbar'
-import { MainLayout } from '@/components/layouts/MainLayout'
+import { Navbar } from '../components/Navbar'
+import { MainLayout } from '../components/layouts/MainLayout'
 
-export default function HomePage( { children } ) {
+export default function HomePage() {
 
   return (
         <>
